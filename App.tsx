@@ -1,15 +1,13 @@
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView} from 'react-native';
 import React from 'react';
-import Greeting from './components/Greeting';
+import Box from './components/Box';
 
 function App() {
   return (
     <SafeAreaView>
-      <Greeting />
+      <Box rounded color="black" size="large" />
     </SafeAreaView>
   );
 }
 
 export default App;
-
-const styles = StyleSheet.create({});
